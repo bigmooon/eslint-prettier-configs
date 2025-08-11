@@ -1,0 +1,18 @@
+{
+  "name": "eslint-prettier-configs",
+  "version": "0.0.0",
+  "scripts": {
+    "example": "pnpm --filter example"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "eslint": "9.33.0",
+      "@typescript-eslint/eslint-plugin": "8.39.0",
+      "@typescript-eslint/parser": "8.39.0"
+    }
+  }
+}
